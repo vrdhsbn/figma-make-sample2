@@ -9,7 +9,7 @@ import Careers from './components/Careers';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename='/figma-make-sample2'>
       <ScrollToTop />
       <Layout>
         <Routes>
